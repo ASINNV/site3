@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACTUAL CODE STARTS HERE */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	position: relative;
+}
+.top-backdrop {
+	height: 360px;
+	width: 100%;
+	background-color: #ECE4E1;
+	border-bottom: 1px solid #FFF6F2;
+}
+.big-header {
+	width: 850px;
+	color: #A19B99;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.imagine {
+	display: inline-block;
+}
+.head-text {
+	display: inline-block;
+	padding-left: 53px;
+}
+.head {
+	font-family: ChunkFive;
+	font-weight: Roman;
+	font-size: 73px;
+	padding-bottom: 20px;
+}
+.under-head {
+	font-family: Cardo;
+	font-style: italic;
+	font-size: 28px;
+	line-height: 36px;
+}
+.the-rest {
+	width: 100%;
+	position: relative;
+	background-color: #E2DBD8;
+	border-top: 1px solid #979797;
+	padding-bottom: 16px;
+}
+.container {
+	width: 850px;
+	position: relative;
+	top: -80px;
+	background-color: white;
+	margin: 0 auto;
+	font-family: ChunkFive;
+	font-weight: Roman;
+	color: #4A4A4A;
+	border-radius: 5px;
+	border: 1px solid #C9C4C1;
+}
+.container h2 {
+	font-size: 44px;
+}
+.container p {
+	font-size: 18px;
+}
+.part-two {
+}
+.recent {
+	text-align: center;
+	line-height: 44px;
+	border-top: 1px solid #EB5F3A;
+	border-bottom: 1px solid #EB5F3A;
+	width: 274px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+.post {
+	color: #4A4A4A;
+	margin: 0 50px 0 50px;
+	border-bottom: 1px solid #9B9B9B;
+	margin-top: 50px;
+	padding-bottom: 61px;
+
+}
+.post p {
+	font-size: 18px;
+	font-family: "Droid Serif";
+}
+.date {
+	border-right: 5px solid #EB5F3A;
+	display: inline-block;
+	padding-right: 25px;
+}
+.date span {
+	font-size: 44px;
+	display: block;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	margin-top: 6px;
+}
+span.day {
+	font-size: 66px;
+	font-family: Impact;
+	line-height: 60px;
+}
+.entries {
+	display: inline-block;
+	width: 615px;
+	vertical-align: top;
+	padding-left: 52px;
+}
+.entries p {
+	padding-top: 11px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-family: "Droid Serif";
+	line-height: 1.5;
+
+}
+.read-more {
+	color: #EB5F3A;
+	text-decoration: none;
+}
+.press-house {
+/*	display: inline-block;*/
+	text-align: center;
+	margin: 0 auto;
+}
+button.push {
+	color: white;
+	background-color: #EB5F3A;
+	font-family: "Helvetica Neue";
+	font-size: 28px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	padding: 0 255px;
+	line-height: 49px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	cursor: pointer;
+}
+footer {
+	width: 850px;
+	margin: 0 auto;
+	text-align: right;
+	font-family: 'Helvetica Neue';
+	font-size: 18px;
+	color: #969290;
+	margin-top: -64px;
+	line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
