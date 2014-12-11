@@ -1,0 +1,1 @@
+var butt=document.getElementById("button");butt.addEventListener("click",function(){var t=document.getElementById("hidden");t.style.display="none"===t.style.display?"block":"none"});
