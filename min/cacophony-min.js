@@ -1,1 +1,1 @@
-var butt=document.getElementById("button");butt.addEventListener("click",function(){var t=document.getElementById("hidden");t.style.display="none"===t.style.display?"block":"none"});
+$(document).ready(function(){$("#button").click(function(){$("#hidden").slideToggle(1e3,function(){})}),$("p").click(function(){$(this).css({position:"relative",top:150,left:150});var t=parseFloat($(this).css("top")),i=parseFloat($(this).css("left"));$(this).animate({top:-t*Math.random(),left:-i*Math.random()})})});
